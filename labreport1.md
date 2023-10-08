@@ -7,7 +7,8 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$ 
 ```
-This command changes the directory. Since there are no arguments, there is no path to change the directory, which explains why there is no output.<br>
+This command changes the directory. Since there are no arguments, there is no path to change the directory, which explains why there is no output. 
+<br>
 The output is not an error.
 
 **2. Share an example of using the command with a path to a *directory* as an argument.**
