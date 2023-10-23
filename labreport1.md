@@ -28,10 +28,10 @@ The output is not an error.
 
 **3. Share an example of using the command with a path to a *file* as an argument**
 ```
-[user@sahara ~]$ cd cse15l-lab-reports/clouds.md
-bash: cd: cse15l-lab-reports/clouds.md: Not a directory
+[user@sahara ~/cse15l-lab-reports]$ cd clouds.md
+bash: cd: clouds.md: Not a directory
 ```
-There is no output because a relative path to a file does not work with this command since it is not a working directory. Files are stored in directories, so the command is unable to change the directory to the file clouds.md.
+The current working directory is cse15l-lab-reports. There is no output because a relative path to a file does not work with this command since it is not a working directory. Files are stored in directories, so the command is unable to change the directory to the file clouds.md.
 <br>
 The output is an error because clouds.md is not a directory since it is a file and not a folder.
 
@@ -41,10 +41,10 @@ The output is an error because clouds.md is not a directory since it is a file a
 
 **1. Share an example of using the command with no arguments.**
 ```
-[user@sahara ~]$ ls
-cse15l-lab-reports  lecture1
+[user@sahara ~/cse15l-lab-reports]$ ls
+clouds.md  index.md  labreport1.md
 ```
-This command lists the files and folders in the output. Based on the output without arguments, it lists the two folders cse15l-lab-reports and lecture1. Since there is no argument, it does not list what is in these folders and just displays the outer folders.
+This command lists the files and folders in the output. The current working directory is cse15l-lab-reports. Based on the output without arguments, it lists the files and folders within the current working directory. In this case, the three files in the working directory are listed out which are clouds.md, index.md, and labreport1.md.
 <br>
 The output is not an error.
 
@@ -53,16 +53,16 @@ The output is not an error.
 [user@sahara ~/lecture1]$ ls messages
 en-us.txt  es-mx.txt  ja.txt  zh-cn.txt
 ```
-This command with a directory as its path lists out the files within the folder. The current working directory is /lecture1, and when the command is used with messages as its path, it gives an output of the 4 files within the messages folder. This consists of en-us.txt, es-mx.txt, ja.txt, and zh-cn.txt.
+This command with a directory as its path lists out the files within the folder. The current working directory is lecture1, and when the command is used with messages as its path, it gives an output of the 4 files within the messages folder. This consists of en-us.txt, es-mx.txt, ja.txt, and zh-cn.txt.
 <br>
 The output is not an error.
 
 **3. Share an example of using the command with a path to a *file* as an argument.**
 ```
-[user@sahara ~]$ ls cse15l-lab-reports/clouds.md
-cse15l-lab-reports/clouds.md
+[user@sahara ~/cse15l-lab-reports]$ ls clouds.md
+clouds.md
 ```
-This command lists out files and folders within the given path. Since there are no other files within the clouds.md file, it just returns that file itself in the output. Since files cannot be contained within other files, no other files would be listed, so it would have to be within a folder in order to be listed.
+This command lists out files and folders within the given path. The current working directory is cse15l-lab-reports. Since there are no other files within the clouds.md file, it just returns that file itself in the output. Since files cannot be contained within other files, no other files would be listed, so it would have to be within a folder in order to be listed.
 <br>
 The output is not an error.
 
@@ -72,24 +72,24 @@ The output is not an error.
 
 **1. Share an example of using the command with no arguments.**
 ```
-[user@sahara ~]$ cat
+[user@sahara ~/cse15l-lab-reports]$ cat
 hello
 hello
-world
+world 
 world
 ^C
-[user@sahara ~]$
+[user@sahara ~/cse15l-lab-reports]$ 
 ```
-This command prints out the contents of the path that is given. Since there was no file in the path given, it returns whatever is written in the terminal input.
+This command prints out the contents of the path that is given. The current working directory is cse15l-lab-reports. Since there was no file in the path given, it returns whatever is written in the terminal input.
 <br>
 The output is not an error.
 
 **2. Share an example of using the command with a path to a *directory* as an argument.**
 ```
-[user@sahara ~]$ cat cse15l-lab-reports/
-cat: cse15l-lab-reports/: Is a directory
+[user@sahara ~/lecture1]$ cat messages
+cat: messages: Is a directory
 ```
-This command prints out the contents of a file, not a directory folder, so it does not end up printing out anything.
+The current working directory is lecture1. This command prints out the contents of a file, not a directory folder, so it does not end up printing out anything.
 <br>
 The output is an error because cse15l-lab-reports is a folder and not a file.
 
