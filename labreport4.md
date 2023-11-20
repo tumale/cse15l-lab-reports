@@ -18,7 +18,9 @@ I typed *cd .ssh* into the terminal to change the directory.
 <br>
 Keys pressed: _\<enter\>_
 <br>
-I then typed *git clone git@github.com:tumale/lab7.git* into the terminal in order to clone the forked repository. Keys pressed: _\<enter\>_
+I then typed *git clone git@github.com:tumale/lab7.git* into the terminal in order to clone the forked repository.
+<br>
+Keys pressed: _\<enter\>_
 
 ## Step 6
 <img width="599" alt="Screenshot 2023-11-19 at 3 01 55 PM" src="https://github.com/tumale/cse15l-lab-reports/assets/90641843/666c82b8-22c7-459d-aba3-2713c3da1157">
@@ -29,7 +31,9 @@ I typed *cd lab7* into the terminal to change the directory.
 <br>
 Keys pressed: _\<enter\>_
 <br>
-I then typed *bash test.sh* into the terminal to run the test to show that they fail. Keys pressed: _\<enter\>_
+I then typed *bash test.sh* into the terminal to run the test to show that they fail. 
+<br>
+Keys pressed: _\<enter\>_
 
 ## Step 7
 <img width="573" alt="Screenshot 2023-11-19 at 3 11 43 PM" src="https://github.com/tumale/cse15l-lab-reports/assets/90641843/8920eda1-bc4a-4f08-b6ab-6b862f8dc04e">
