@@ -53,7 +53,7 @@ Keys pressed: _\<up\>\<up\>\<enter\>_
 I accessed *bash test.sh* in the terminal using the up arrows in order to rerun the test showing that the bug has been fixed.
 
 ## Step 9
-<img width="706" alt="Screenshot 2023-11-19 at 3 18 45 PM" src="https://github.com/tumale/cse15l-lab-reports/assets/90641843/102adcc6-84e5-4806-9561-bc3d6fc65311">
+<img width="503" alt="Screenshot 2023-12-02 at 10 23 15 PM" src="https://github.com/tumale/cse15l-lab-reports/assets/90641843/9ef76a72-9433-4835-a90f-6e4971d33b83">
 <br>
 
-I opened GitHub Desktop and committed the changes made to the file where I fixed the bug.
+I typed *git add ListExamples.java*, *git commit -m "fixed index2"*, and *git push* into the terminal. The changes that were made in the repository are pushed to match the repository hosted on GitHub.
