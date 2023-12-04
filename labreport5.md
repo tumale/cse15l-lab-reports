@@ -21,7 +21,9 @@ used as it is important for the code to run successfully.
 **Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 <br>
 <img width="419" alt="Screenshot 2023-12-03 at 9 41 41 PM" src="https://github.com/tumale/cse15l-lab-reports/assets/90641843/cfdfe9b1-7849-4bde-984c-f7ac3bc68ddd">
+<br>
 <img width="284" alt="Screenshot 2023-12-03 at 9 42 23 PM" src="https://github.com/tumale/cse15l-lab-reports/assets/90641843/92027d12-0935-4760-827c-f9678a96225f">
+<br>
 It ran successfully because the index number was fixed from index1 to index2 which allows the list to be added to index2 respectively. 
 
 ## Part 2 - Reflection
